@@ -4,14 +4,18 @@ Bot that sends messages to slack.
 ## Slack documentation
 https://api.slack.com/
 
-## Technologies used
-- java 17
+## Technologies and prerequisites
+- installed java 17 & maven
 - slack app
 
 ## Instructions
 1. create slack bot
 2. set permissions: read, write, chat
 3. get BOT TOKEN and set it in Constants.java
+
+## Run project
+- go to: /scripts in root project
+- run: ./run.sh
 
 ## Endpoint
 - POST http://localhost:8080/api/message/send body: {"content": "test"}
